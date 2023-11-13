@@ -179,6 +179,7 @@ error_reporting(E_ALL);
             // analisa se o tribunal tem API e está disponível. Se não estiver, retorna mensagem com erro.
             if (empty($tribunais[$j][$tr]['link'])) { 
                 echo "<h1>ERRO! Não há suporte para consulta no tribunal código CNJ " . $tr . "</h1>";
+                echo "<h3>Dúvidas: leonardo@leonardovilela.com</h3>"
                 echo "<h5><a href='apicnj.php'>Nova consulta</a></h5>";
                 die;
             }
