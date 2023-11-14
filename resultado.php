@@ -293,7 +293,7 @@ error_reporting(E_ALL);
                                 </div>
                             </div>
                             <div class="row">
-                                <? 
+                                <?php 
                                 foreach ($registros->_source->movimentos as $movimentacao) { 
                                     echo "<hr>";
                                     $dataMovimentacao = '';
